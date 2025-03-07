@@ -8,7 +8,7 @@ spec:
     app: iot-app
   ports:
     - protocol: TCP
-      port: 80
+      port: 85
       targetPort: 8087
       nodePort: 30000
   type: NodePort
