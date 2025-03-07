@@ -4,7 +4,6 @@ metadata:
   name: iot-app
   namespace: argocd
 spec:
-  project: default
   source:
     repoURL: 'https://github.com/4vr3L/oouazahr-IoT.git'
     targetRevision: master
