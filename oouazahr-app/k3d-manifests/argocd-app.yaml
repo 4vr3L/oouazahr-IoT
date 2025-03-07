@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/4vr3L/oouazahr-IoT'
     targetRevision: main
-    path: k3d-manifests
+    path: oouazahr-app/k3d-manifests
   destination:
     server: https://kubernetes.default.svc
     namespace: dev
