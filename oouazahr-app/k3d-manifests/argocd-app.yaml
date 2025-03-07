@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/4vr3L/oouazahr-IoT'
+    repoURL: 'https://github.com/4vr3L/oouazahr-IoT.git'
     targetRevision: main
     path: oouazahr-app/k3d-manifests
   destination:
