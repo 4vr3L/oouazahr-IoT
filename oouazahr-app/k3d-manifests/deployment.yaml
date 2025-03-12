@@ -17,7 +17,7 @@ spec:
       - name: iot-app
         image: wil42/playground:v1
         ports:
-        - containerPort: 80
+        - containerPort: 8888
 ---
 apiVersion: v1
 kind: Service
@@ -25,11 +25,10 @@ metadata:
   name: iot-app
   namespace: dev
 spec:
+  type : LoadBalancer
   selector:
     app: iot-dev
   ports:
     - protocol : TCP
-      port : 80
-      targetPort: 80
-      nodePort: 30000
-  type: NodePort
+      port : 8888
+      targetPort: 8888
