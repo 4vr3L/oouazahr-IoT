@@ -27,7 +27,7 @@ metadata:
 spec:
   type : LoadBalancer
   selector:
-    app: iot-dev
+    app: iot-app
   ports:
     - protocol : TCP
       port : 8888
